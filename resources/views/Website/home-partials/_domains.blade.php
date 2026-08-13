@@ -14,7 +14,7 @@
         <div class="row contact-form-style-06 position-relative justify-content-center pb-30px">
             <div class="col-xl-12">
                 <!-- start SEO analysis form -->
-                <form class="row justify-content-center" action="https://shop.gohostorage.com/cart.php" method="get">
+                <form class="row justify-content-center" action="https://gohostorage.com/cart.php" method="get">
                     <input type="hidden" name="a" value="add" />
                     <input type="hidden" name="domain" value="register" />
                     <div class="col-md-10 sm-mb-10px">

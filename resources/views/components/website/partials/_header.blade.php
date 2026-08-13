@@ -151,7 +151,7 @@
                         </a>
                     </div>
                     <div class="header-button ms-30px xxl-ms-10px xs-ms-0">
-                        <a href="https://shop.gohostorage.com/index.php?rp=/login" target="_blank"
+                        <a href="https://gohostorage.com/index.php?rp=/login" target="_blank"
                             class="btn btn-white btn-small btn-rounded btn-box-shadow btn-switch-text fw-600">
                             <span>
                                 <span class="btn-double-text" data-text="{{ __('dashboard.login') }}">{{ __('dashboard.login') }}</span>
