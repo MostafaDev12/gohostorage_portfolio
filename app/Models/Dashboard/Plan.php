@@ -2,6 +2,7 @@
 
 namespace App\Models\Dashboard;
 
+use App\Support\WhmcsUrl;
 use App\Traits\HasLanguage;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
@@ -84,7 +85,10 @@ class Plan extends Model
 
     public function getSlugAttribute()
     {
-        return $this->{'slug_'.$this->lang } ;
+        // Order links are stored per-language as absolute URLs. Normalise the
+        // host so a row still carrying the shop's old hostname cannot send the
+        // customer back to this portfolio instead of the shop.
+        return WhmcsUrl::normalize($this->{'slug_'.$this->lang });
     }
 
 }
