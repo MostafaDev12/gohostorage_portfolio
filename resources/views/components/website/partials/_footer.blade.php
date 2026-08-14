@@ -86,7 +86,7 @@
             <!-- start copyright -->
             <div class="col-lg-6 pt-35px pb-35px md-pt-0 order-2 order-lg-1 text-center text-lg-start last-paragraph-no-margin">
                 <p>
-                    {{config('configrations.site_copyright')}} <a href="https://www.be-group.com/en" target="_blank" class="text-dark-gray fw-600 text-decoration-line-bottom">BeGroup</a></p>
+                    {{config('configrations.site_copyright')}} <a href="https://Max4agency.com" target="_blank" class="text-dark-gray fw-600 text-decoration-line-bottom">Max4agency</a></p>
             </div>
             <!-- end copyright -->
             <!-- start footer menu -->
